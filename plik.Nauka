@@ -20,5 +20,4 @@
     foldery:
     <nazwa folderu>/*
     Uwaga. Zalecane jest wpisanie jako plik ignorowany pliku
-   .gitignore.
-   Do sprawdzenie działania cofania commitu - tzw checkout.
+    .gitignore.
