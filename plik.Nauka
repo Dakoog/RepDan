@@ -1,2 +1,23 @@
 
 5 stycznia 2022r - Utworzenie pliku Nauka
+
+  1) Git - wprowadzenie
+  2) Wiersz poleceń
+  3) Systemy kontroli wersji
+  4) Tworzenie repozytorium lokalnego
+  5) Cykl życia plików
+  6) Historia zmian
+  7) Tworzenie repozytorium zdalnego
+  8) Plik .gitignore 
+    - w repozytorium często pojawiają sie pliki które 
+    są produktem zbędnym wynikłym przy zapisywaniu kolejnych
+    etapów działalności w repozytorium. 
+    Aby one nie zaśmiecały nam naszego folderu głównego należy
+    dodać plik .gitignore w którym wpiszemy wszystkie rozszerzenia
+    które powinny być ignorowane w naszym repozytorium.
+    By ignorowane były pliki należy wpisać: 
+    *.<rozszerzenie>
+    foldery:
+    <nazwa folderu>/*
+    Uwaga. Zalecane jest wpisanie jako plik ignorowany pliku
+    .gitignore.
