@@ -29,3 +29,15 @@
      aby przejść z gałęzi master do testing i z powrotem
      należy wpisać polecenie
      git checkout <nazwa gałęzi>.
+  10) Scalania odgałęzień w folderze (merge)
+     Posiadając gałęzie np. master i testing możemy je scalić
+     gdy uznamy że to co uzyskaliśmy na wyodrębnionej gałęzi
+     ćwiczeniowej jest adekwatne i kończące projekt.
+     W tym celu wpisać należy następujące polecenie:
+     git merge testing (na gałęzi master)
+     i zatwierdzić pojawiający się commit 
+     następnie możemy usunąć wykorzystaną już do celów testowych
+     gałąź testing.
+     Uwaga: w celu wybrania jednej z wielu gałęzi należy przy wpisaniu
+     git branch -> nacisnąć dwa razy tabulator (tab) i wybrać z podanych
+     przez gita gałęzi.
