@@ -20,4 +20,12 @@
     foldery:
     <nazwa folderu>/*
     Uwaga. Zalecane jest wpisanie jako plik ignorowany pliku
-    .gitignore.
+    .gitignore
+  9) Tworzenie odgałęzienia (branch)
+     TO testowania pisanego program i zmian w jego tworzeniu możemy 
+     wykorzystać gałąź testing w naszym repozytorium 
+     tworzymy ją natępująco
+     git branch testing 
+     aby przejść z gałęzi master do testing i z powrotem
+     należy wpisać polecenie
+     git checkout <nazwa gałęzi>.
