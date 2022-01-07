@@ -41,4 +41,12 @@
      Uwaga: w celu wybrania jednej z wielu gałęzi należy przy wpisaniu
      git branch -> nacisnąć dwa razy tabulator (tab) i wybrać z podanych
      przez gita gałęzi.
-
+  11) Konfikt przy scalnaiu gałęzi (confict merge branches)
+      Gdy na tym samym pliku w gałęzi master i gałęzi testing jest inna
+      treść i zarządzone jest scalanie<merge> dochodzi do konfliktu
+      o czym świadczy komunikat.
+      Należy w ówczas dokonać selekcji czy zapisać w pliku -> vim <nazwa pliku>
+      wersje z master czy też wersje z testing alternatywnie połączone obie wersje
+      robimy to usuwając wszystko oprocz tekstu który był wypisany w tych plikach
+      następnie zapisujemy to :wq dodajem plik -> git add . i commit 
+      Na koncu usuwamy branch testing.
