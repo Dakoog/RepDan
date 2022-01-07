@@ -6,3 +6,45 @@ Zadanie 1.
      *  w miejscu liczb podzielnych przez 7 zamiast liczby program powinien wypisać "Paf"
      *  w miejscu liczb podzielnych przez 3 i 7  zamiast liczby program powinien wypisać "PifPaf"
      *  w miejscu liczb nie podzielnych przez 3 i przez 7  zamiast liczby program powinien wypisać "Pudło"
+
+     Program:
+  public class PIFPAF {
+      public double pifPaf(int upperLimit) {
+        for (int i = 1; i <= upperLimit; i++) {
+            System.out.print("Liczba " + i + ": ");
+            if (i % 3 == 0 & i % 7 == 0) {
+
+                System.out.print("Pif paf");
+            }
+            else if (i % 3 == 0) {
+                System.out.print("Pif");
+            }
+           else if (i % 7 == 0) {
+                System.out.print("Paf");
+            }
+
+
+        else if (i % 3 != 0 & i % 7 != 0) {
+
+                System.out.print("PUDŁO");
+            }
+
+
+            System.out.println(" ");
+
+        }
+        return 0;
+    }
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------
+public class Main {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+        System.out.println("Podaj liczbę naturalną dwucyfrową" +
+                " która będzie górnym limitem FlizzBuzz.");
+        int upperLimit = input.nextInt();
+        PIFPAF pifPaf = new PIFPAF();
+
+        pifPaf.pifPaf(upperLimit);
+    }
+}
