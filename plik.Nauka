@@ -50,3 +50,7 @@
       robimy to usuwając wszystko oprocz tekstu który był wypisany w tych plikach
       następnie zapisujemy to :wq dodajem plik -> git add . i commit 
       Na koncu usuwamy branch testing.
+   12)Fast forwarding - szybkie przenienienie z jednej gałęzi np. testing
+      na drugą np. master Dzieje sie to tak gdy na scalanych gałęziach jest 
+      kilka plików różnicy i więcej komitów. 
+    
