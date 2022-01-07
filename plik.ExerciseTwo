@@ -8,3 +8,49 @@ Zadanie 2
         Optymalny zakres BMI wynosi od 18.5 do 24.9, wartości mniejsze lub większe są wartościami nieoptymalnymi.
         Twój program powinien wypisać „BMI optymalne" lub „BMI nieoptymalne", zgodnie z powyższymi założeniami.
 
+Program: 
+    
+     public class BMI {
+        
+        private static int heightCM;
+        private static float weightKG;
+        private static double bmi;
+
+
+        private static double bmi() {
+
+            double wzrostM =(double )heightCM/100;
+
+            bmi =weightKG/(Math.pow(wzrostM,2));
+            return bmi;
+        }
+
+        private static void giveData() {
+            Scanner liczby = new Scanner(System.in);
+            System.out.println("Podaj swoj wzrost w cm ");
+            heightCM = liczby.nextInt();
+            System.out.println("Podaj swoja wage w kg");
+           weightKG = liczby.nextFloat();
+        }
+
+        private static void bmiOptimal() {
+            if (bmi() >= 18.5 && bmi() <= 24.9) {
+                System.out.println("Twoje BMI jest optymalne i  wynosi: " + bmi());
+            } else {
+                System.out.println("Twoje BMI nie jest optymalne i  wynosi:" + bmi());
+            }
+
+        }
+        public static void yourBMI(){
+            giveData();
+            bmiOptimal();
+        }
+    }
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+     public class Main {
+        public static void main(String[] args) {
+        BMI.yourBMI();
+    }
+}
