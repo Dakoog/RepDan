@@ -1,0 +1,8 @@
+Zadanie 1.
+  Napisz program, który pobierze od użytkownika dodatnią liczbę (typu int) i
+        wypisze wszystkie liczby od 1 do podanej liczby,
+        każda w kolejnej linijce z następującymi zmianami:
+     *  w miejscu liczb podzielnych przez 3 zamiast liczby program powinien wypisać "Pif"
+     *  w miejscu liczb podzielnych przez 7 zamiast liczby program powinien wypisać "Paf"
+     *  w miejscu liczb podzielnych przez 3 i 7  zamiast liczby program powinien wypisać "PifPaf"
+     *  w miejscu liczb nie podzielnych przez 3 i przez 7  zamiast liczby program powinien wypisać "Pudło"
